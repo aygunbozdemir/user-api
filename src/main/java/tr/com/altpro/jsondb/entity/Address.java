@@ -9,7 +9,7 @@ import javax.persistence.Embedded;
 @Data
 @AllArgsConstructor
 @Embeddable
-public class Adress {
+public class Address {
 
     private String street;
     private String suite;
@@ -19,6 +19,6 @@ public class Adress {
     @Embedded
     private Geo geo;
 
-    public Adress() {
+    public Address() {
     }
 }

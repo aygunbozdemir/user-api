@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import tr.com.altpro.jsondb.boundary.UserService;
+import tr.com.altpro.jsondb.entity.User;
 
 @RestController
 @RequestMapping("/users")

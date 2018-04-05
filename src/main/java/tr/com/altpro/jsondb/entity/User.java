@@ -20,7 +20,8 @@ public class User {
     private String website;
 
     @Embedded
-    private Adress adress;
+    private Address address;
+
     @Embedded
     private Company company;
 

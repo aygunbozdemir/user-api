@@ -13,7 +13,7 @@ public class Company {
 
     @Column(name = "company_name")
     private String name;
-    private String cathPhrase;
+    private String catchPhrase;
     private String bs;
 
     public Company() {
